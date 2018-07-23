@@ -1,0 +1,58 @@
+[
+    {
+        "name": "/dashboard.do",
+        "templateUrl": "dashboard.do",
+        "title": "Dashboard",
+        "data": {
+            "authorizedRoles": [
+                "ADMIN",
+                "EMPLOYEE"
+            ],
+            "menuCluster": "Dashboard"
+        }
+    },
+    {
+        "name": "/newcustomer.do",
+        "templateUrl": "newcustomer.do",
+        "title": "Customer master",
+        "data": {
+            "authorizedRoles": [
+                "*"
+            ],
+            "menuCluster": "Customer Master"
+        }
+    },
+    {
+        "name": "/access_denied.do",
+        "templateUrl": "access_denied.do",
+        "title": "Access Denied",
+        "data": {
+            "authorizedRoles": [
+                "*"
+            ],
+            "menuCluster": "Access Denied"
+        }
+    },
+    {
+        "name": "/blank.do",
+        "templateUrl": "blank.do",
+        "title": "Blank",
+        "data": {
+            "authorizedRoles": [
+                "*"
+            ],
+            "menuCluster": "Blank"
+        }
+    },
+    {
+        "name": "/sales.do",
+        "templateUrl": "sales.do",
+        "title": "Sales",
+        "data": {
+            "authorizedRoles": [
+                "*"
+            ],
+            "menuCluster": "Sales"
+        }
+    }
+]
